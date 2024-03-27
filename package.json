@@ -1,0 +1,14 @@
+{
+  "name": "t2mfut.xyz",
+  "version": "0.0.0",
+  "description": "Beta-Testing",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "npm i && node js/main.js"
+  },
+  "author": "Monkeyt",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.9.0"
+  }
+}
