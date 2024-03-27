@@ -1,5 +1,5 @@
-import { signInWithEmailAndPassword } from 'firebase-auth'
-import { app, analytics } from '../../../../js/main'
+const { signInWithEmailAndPassword } = require('firebase-auth')
+const { app, analytics } = require('../../../../js/main')
 
 async function login() {
     const email = document.getElementById('email').value;
