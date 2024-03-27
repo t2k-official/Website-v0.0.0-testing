@@ -23,7 +23,7 @@ async function login() {
             type: 'login',
             url: 'https://t2mfut.xyz/mdm/Admin/webclips/login.html',  
         })*/
-        window.location.href = "../redirecting.html";
+        window.location.href = "./redirecting.html";
     } else{
         alert('Sorry, this service is not for public use!');
         console.log('Login Failed: @t2mfut.xyz email domain not included!')
