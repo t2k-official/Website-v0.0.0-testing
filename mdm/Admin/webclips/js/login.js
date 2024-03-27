@@ -28,3 +28,4 @@ async function login() {
         console.log('Login Failed: @t2mfut.xyz email domain not included!')
     }
 }
+document.getElementById('login-btn').addEventListener('click', login);
