@@ -1,6 +1,3 @@
-const { signInWithEmailAndPassword } = require('firebase-auth')
-const { app, analytics } = require('../../../../js/main')
-
 async function login() {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
