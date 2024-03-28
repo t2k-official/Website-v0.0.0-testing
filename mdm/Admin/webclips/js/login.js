@@ -12,6 +12,7 @@ async function login() {
         } catch (error) {
             console.log('[' + error.code + ']' + error.message)
             alert('Sorry, This account does not exist!');
+            return
         }
         /*analytics.logEvent('login', {
             method: 'email',
@@ -27,6 +28,7 @@ async function login() {
     } else{
         alert('Sorry, this service is not for public use!');
         console.log('Login Failed: @t2mfut.xyz email domain not included!')
+        return
     }
 }
 document.getElementById('login-btn').addEventListener('click', login);
